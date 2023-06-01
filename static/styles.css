@@ -1,0 +1,89 @@
+  .container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+
+  h1 {
+    text-align: center;
+  }
+
+  label {
+    display: block;
+    margin-bottom: 10px;
+  }
+
+  input[type="text"] {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+  }
+
+  button {
+    padding: 10px 20px;
+  }
+  /* ... предыдущие стили ... */
+
+  #taskContainer {
+    margin-top: 20px;
+  }
+
+  #taskList {
+    list-style-type: none;
+    padding: 0;
+  }
+
+  .taskCard {
+    background-color: #f4f4f4;
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  /* ... предыдущие стили ... */
+
+  #estimationContainer {
+    margin-top: 20px;
+  }
+
+  #cardContainer {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+  }
+
+  .card {
+    background-color: #f4f4f4;
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+  }
+
+  #calculateButton {
+    margin-bottom: 10px;
+  }
+
+  #averageResult {
+    font-weight: bold;
+  }
+  /* ... предыдущие стили ... */
+
+  .card.selected {
+    background-color: #ddd;
+  }
+  #addUserButton, #removeUserButton {
+    margin-top: 10px;
+  }
+  /* Добавьте следующие стили в ваш файл CSS */
+#connectionIndicator {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: gray;
+}
+
+.connected {
+  background-color: green;
+}
+
+
